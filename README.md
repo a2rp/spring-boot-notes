@@ -4,9 +4,9 @@ This repository is my personal set of Spring Boot study notes. I record what I l
 
 ## Scope
 
-These notes focus on Java web applications with Spring Boot 4.1.1. They cover application setup, configuration, dependency injection, REST endpoints, validation, data access, transactions, security, testing, observability, and deployment. Examples use Java and Maven, with notes about where Gradle fits.
+These notes focus on Java web applications with Spring Boot 4.1.2. They cover application setup, configuration, dependency injection, REST endpoints, validation, data access, transactions, security, testing, observability, and deployment. Examples use Java and Maven, with notes about where Gradle fits.
 
-Spring Boot 4.1.1 requires Java 17 or later. The examples use Java 21 as a practical baseline. The official requirements also list Maven 3.6.3 or later and Gradle 8.14 or later in the 8.x line, or Gradle 9.x. Version requirements can change, so I check the linked official documentation when setting up a new project.
+Spring Boot 4.1.2 requires Java 17 or later. The examples use Java 21 as a practical baseline. The official requirements also list Maven 3.6.3 or later and Gradle 8.14 or later in the 8.x line, or Gradle 9.x. Version requirements can change, so I check the linked official documentation when setting up a new project.
 
 ## How these notes are organized
 
@@ -39,8 +39,8 @@ I use these notes to understand how a request moves through an application, from
 ## Reference links
 
 - [Spring Boot reference documentation](https://docs.spring.io/spring-boot/reference/)
-- [Spring Boot 4.1.1 system requirements](https://docs.spring.io/spring-boot/system-requirements.html)
-- [Spring Boot 4.1 release announcement](https://spring.io/blog/2026/06/10/spring-boot-4/)
+- [Spring Boot 4.1.2 system requirements](https://docs.spring.io/spring-boot/4.1.2/system-requirements.html)
+- [Spring Boot 4.1.2 release announcement](https://spring.io/blog/2026/10/23/spring-boot-4-1-2-available-now/)
 
 ## Links
 

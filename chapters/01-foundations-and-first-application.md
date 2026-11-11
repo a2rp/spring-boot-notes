@@ -9,7 +9,7 @@
 
 Spring Boot helps assemble a Spring application with sensible defaults, managed dependencies, and an embedded server. It reduces setup work, but the application still has clear Java classes and responsibilities. Spring Framework provides the core container and web features; Boot configures common pieces based on dependencies and settings.
 
-For a new project, Spring Initializr can create the Maven or Gradle structure. I select Java, Spring Boot 4.1.1, a supported Java version, and the dependencies needed for the first feature. The official requirements currently list Java 17 as the minimum. These notes use Java 21 in examples.
+For a new project, Spring Initializr can create the Maven or Gradle structure. I select Java, Spring Boot 4.1.2, a supported Java version, and the dependencies needed for the first feature. The official requirements currently list Java 17 as the minimum. These notes use Java 21 in examples.
 
 ## Minimal Maven dependencies
 
@@ -19,7 +19,7 @@ A Spring MVC application on Boot 4 uses the webmvc starter. Its matching test st
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>4.1.1</version>
+    <version>4.1.2</version>
     <relativePath/>
 </parent>
 
@@ -92,7 +92,7 @@ A request to /api/greeting returns JSON. Records are a concise way to model simp
 1. What does Spring Boot configure for a common application?
 2. Which part of the stack provides the core dependency injection container?
 3. What does Spring Initializr create?
-4. What is the current Java minimum for Spring Boot 4.1.1?
+4. What is the current Java minimum for Spring Boot 4.1.2?
 5. What does @SpringBootApplication combine?
 6. What does SpringApplication.run start?
 7. Which starter adds Spring MVC and an embedded server in Boot 4?

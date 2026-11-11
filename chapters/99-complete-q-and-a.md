@@ -19,9 +19,9 @@ Spring Framework provides the core container and dependency injection features.
 
 Spring Initializr generates a project structure and selected build dependencies.
 
-**4. What is the current Java minimum for Spring Boot 4.1.1?**
+**4. What is the current Java minimum for Spring Boot 4.1.2?**
 
-The current Boot 4.1.1 minimum is Java 17.
+The current Boot 4.1.2 minimum is Java 17.
 
 **5. What does @SpringBootApplication combine?**
 
